@@ -1,0 +1,26 @@
+{
+  "name": "gitlab-webhook-handler",
+  "version": "1.0.1",
+  "description": "Web handler / middleware for processing GitLab Webhooks",
+  "main": "gitlab-webhook-handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caviler/gitlab-webhook-handler.git"
+  },
+  "keywords": [
+    "gitlab",
+    "webhooks"
+  ],
+  "author": "Eric Xu <caviler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caviler/gitlab-webhook-handler/issues"
+  },
+  "homepage": "https://github.com/caviler/gitlab-webhook-handler#readme",
+  "dependencies": {
+    "bl": "~0.9.4"
+  }
+}

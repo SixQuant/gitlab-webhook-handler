@@ -5,11 +5,14 @@
 
 Modify rvagg/github-webhook-handler to fit Gitlab.
 
-GitLab allows you to register **[Webhooks](https://developer.gitlab.com/webhooks/)** for your repositories. Each time an event occurs on your repository, whether it be pushing code, filling issues or creating pull requests, the webhook address you register can be configured to be pinged with details.
+GitLab allows you to register **[Webhooks](https://gitlab.com/help/web_hooks/web_hooks)** for your repositories. Each time an event occurs on your repository, whether it be pushing code, filling issues or creating pull requests, the webhook address you register can be configured to be pinged with details.
 
 This library is a small handler (or "middleware" if you must) for Node.js web servers that handles all the logic of receiving and verifying webhook requests from GitHub.
 
+
 ## Example
+
+$ npm install gitlab-webhook-handler
 
 ```js
 var http = require('http')
