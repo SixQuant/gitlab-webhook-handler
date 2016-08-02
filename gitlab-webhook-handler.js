@@ -63,6 +63,7 @@ function create (options) {
      var emitData = {
       event   : event
       , payload : obj
+      , token : req.headers['x-gitlab-token']
       , protocol: req.protocol
       , host    : req.headers['host']
       , url     : req.url
