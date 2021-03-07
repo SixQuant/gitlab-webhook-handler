@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/caviler/gitlab-webhook-handler#readme",
   "dependencies": {
-    "bl": "~0.9.4"
+    "bl": "^4.0.3"
   }
 }
